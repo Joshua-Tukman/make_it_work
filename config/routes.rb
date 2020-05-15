@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   #contestants
   get '/contestants', to: 'contestants#index'
-  
+  get '/contestants/new', to: 'contestants#new'
+  post '/contestants', to: 'contestants#create'
 end

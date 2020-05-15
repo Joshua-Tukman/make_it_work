@@ -1,0 +1,5 @@
+<%=form_tag "/contestants", method: :post do %>
+  <%= label_tag :contestant_id %>
+  <%= number_field_tag :contestant_id %>
+  <%= submit_tag "Add Contestant" %>
+<% end %>

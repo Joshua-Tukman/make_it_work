@@ -2,3 +2,7 @@
 <p>Material: <%= @project.material %></p>
 
 <%= @project.challenge.theme %>
+
+<p>Number of Contestants: <%= @project.num_contestants %>
+<p>Average Contestant Experience: <%= @project.years_experience %></p>
+<%= link_to "Add Contestant", "/contestants/new" %>
